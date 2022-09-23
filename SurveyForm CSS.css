@@ -1,0 +1,39 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  text-align: center;
+}
+
+form{
+  margin: 0 auto;
+  color: grey;
+}
+
+fieldset{
+  padding: 2rem 0;
+  border: 3px solid #3b3b4f;
+}
+
+label{
+  display: block;
+  padding: 2%;
+}
+
+#submit{
+  padding: 2%;
+  margin: 12 auto;
+}
+
+#tbox{
+  margin: 10px 0 0 0;
+  width: 75%;
+  min-height: 2em;
+}
+
+.checkbox{
+  margin: auto;
+}

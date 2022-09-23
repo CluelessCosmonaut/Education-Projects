@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Generic Survey Form</h1>
+  <p id="description">"Honestly I wanted to do a Monty Python reference for this one, but rules are rules I guess."</p>
+
+<form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label"> What is your name?
+      <input id="name" name="name" type="text" placeholder="Sir Lancelot" required /></label>
+    </label>
+    <label for="email" id="email-label"> What is your email?
+      <input id="email" name="email" type="email" placeholder="holygrail@camelot.gov" required /></label>
+    </label>
+    <label for="number" id="number-label"> What is your number? (Just for business, don't flatter yourself.)
+      <input id="number" name="number" type="number" min="1" max="9" placeholder="5" required /></label>
+    </label>
+    <label for="hands" id="dropdown-label">Are you left or right handed?
+      <select id="dropdown" name="dropdown">
+        <option value="">Left</option>
+        <option value="1">Right</option>
+        <option value="2">Both</option>
+        <option value="3">None</option>
+        </select>
+    </label>
+
+    <label for="yes" id="yes-label"> Are you Comfortable right now?
+      <input id="yes" type="radio" class="radio" name="radio" value="0"> It'll do.</input>
+      <input id="no" type="radio" class="radio" name="radio" value="0"> Let me out.</input>
+    </label>
+
+<label for="boxes" id="boxes">
+  Do you agree to the form?
+  <input id="agree" type="checkbox" class="checkbox" name="checkbox" value="0"> I don't see why not</input>
+  </label>
+  <label>
+  What about this one?
+  <input id="agree2" type="checkbox" class="checkbox" name="checkbox" value="0"> Sure, I guess</input>
+  </label>
+
+
+<label for="textbox" id="textbox">
+  Have anything of note to write?
+  <textarea id="tbox" class="textbox" name="textbox" placeholder="Bring out yer dead! *clang*"></textarea>
+</label>
+
+
+    
+  </fieldset>
+  <input type="submit" value="Submit" id="submit" />
+</form>
+
+</body>
+
+</html>
